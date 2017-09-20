@@ -50,19 +50,45 @@ public class MichiganAreaCodes {
         if (isMi){
             switch (areaCode){
                 case 231:
-                    System.out.println("Northwestern L");
+                    System.out.println("Northwestern Lower Michigan");
+                    break;
                 case 248:
+                    System.out.println("Northern Metro Detroit");
+                    break;
                 case 269:
+                    System.out.println("Southwestern Michigan");
+                    break;
                 case 313:
+                    System.out.println("Wayne County");
+                    break;
                 case 517:
+                    System.out.println("South Central Michigan");
+                    break;
                 case 586:
+                    System.out.println("Northwestern Metro Detroit");
+                    break;
                 case 616:
+                    System.out.println("Western Michigan");
+                    break;
                 case 734:
+                    System.out.println("Western and Down River/ Southeastern Michigan Metro Detroit");
+                    break;
                 case 810:
+                    System.out.println("Southern Flint and The Thumb");
+                    break;
                 case 906:
+                    System.out.println("Upper Peninsula");
+                    break;
                 case 947:
+                    System.out.println("Northern Metro Detroit");
+                    break;
                 case 989:
+                    System.out.println("Central, Tri-Cities and Northeastern Lower Michigan");
+                    break;
             }
+        }
+        else {
+            System.out.println("Is not in Michigan");
         }
 
     }
